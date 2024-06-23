@@ -32,9 +32,9 @@ classDiagram
         +String newsDescription
     }
 
-    Cliente --> Account
-    Cliente --> Card
-    Cliente --> Feature
-    Cliente --> News
+    Cliente *-- Account
+    Cliente *-- Card
+    Cliente *-- Feature
+    Cliente *-- News
 ```_
  
